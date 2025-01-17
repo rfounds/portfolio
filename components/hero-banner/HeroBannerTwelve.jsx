@@ -11,18 +11,18 @@ const HeroBannerTwelve = () => {
             <h1 className="hero-heading font-gordita" data-aos="fade-up">
               Building website{" "}
               <span style={{ color: "#FF006B" }}>products</span>,{" "}
-              <span style={{ color: "#FEDC00" }}>brands</span> & expereince
+              <span style={{ color: "#FEDC00" }}>brands</span> & experience
             </h1>
             <p
               className="hero-sub-heading"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Make stunning videos with animation, stock footage, and photos.
+              Your digital presence, perfected.
             </p>
             <div data-aos="fade-up" data-aos-delay="200">
               <Link     href="/signup" className="get-start-btn">
-                Get Started fo free{" "}
+                Get Started now{" "}
                 <i className="fa fa-angle-right ms-1" aria-hidden="true"></i>
               </Link>
             </div>

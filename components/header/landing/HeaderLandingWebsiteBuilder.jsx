@@ -48,9 +48,9 @@ const HeaderLandingWebsiteBuilder = () => {
         }
       >
         <div className="d-flex align-items-center justify-content-between">
-          <div className="logo order-lg-1">
-            <Link     href="/doc-landing">
-              <Image  width="137" height="34" src="/images/logo/deski_09.svg" alt="brand" />
+          <div className="logo order-lg-1 my-3">
+            <Link     href="/">
+              <Image  width="100" height="100" src="/images/nucleus.svg" alt="brand" />
             </Link>
           </div>
           {/* End logo */}
