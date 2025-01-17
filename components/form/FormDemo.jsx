@@ -9,7 +9,7 @@ const FormEvent = () => {
   };
   return (
     <form onClick={handleSubmit}>
-      <input type="text" placeholder="ihidago@ujufidnan.gov" />
+      <input type="text" placeholder="Enter your email" />
       <button>Try free demo</button>
     </form>
   );

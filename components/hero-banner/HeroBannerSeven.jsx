@@ -16,10 +16,10 @@ const HeroBannerSeven = () => {
         <div className="row">
           <div className="col-lg-6">
             <h1 className="hero-heading">
-              <span>Capture</span> Idea & find it later.
+              <span>Capture</span> your ideas and save for later.
             </h1>
             <p className="hero-sub-heading">
-              Deski delivered blazing fast, striking soludtion
+              Building your own solutions
             </p>
             <FormDemo />
             <p className="term-text">

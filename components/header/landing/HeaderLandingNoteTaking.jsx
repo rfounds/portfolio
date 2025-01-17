@@ -19,22 +19,22 @@ const HeaderLandingNoteTaking = () => {
   const changeBackground = () => {
     if (typeof window !== "undefined") {
       if (window.scrollY >= 90) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
+        setNavbar(true);
+      } else {
+        setNavbar(false);
+      }
     }
-    }
-    
+
   };
 
   useEffect(() => {
-      window.addEventListener("scroll", changeBackground);
-  
+    window.addEventListener("scroll", changeBackground);
+
     return () => {
-        window.removeEventListener("scroll", changeBackground);
+      window.removeEventListener("scroll", changeBackground);
     }
   }, [])
-  
+
 
 
 
@@ -53,8 +53,8 @@ const HeaderLandingNoteTaking = () => {
       >
         <div className="d-flex align-items-center justify-content-center">
           <div className="logo">
-            <Link     href="/doc-landing">
-              <Image width="138" height="47" src="/images/logo/deski_06.svg" alt="brand" />
+            <Link href="/doc-landing">
+              <Image width="138" height="47" src="/images/nucleus.svg" alt="brand" />
             </Link>
           </div>
           {/* End logo */}
@@ -77,16 +77,16 @@ const HeaderLandingNoteTaking = () => {
                 id="navbarSupportedContent"
               >
                 <div className="d-lg-flex justify-content-between align-items-center">
-                <div 
+                  <div
                     className="navbar-nav  main-side-nav font-gordita"
-                    
+
                   >
                     <div data-to-scrollspy-id="home" className="nav-item dropdown position-static">
                       <a
                         className="nav-link dropdown-toggle"
                         href="#home"
                         data-toggle="dropdown"
-                       
+
                       >
                         Home
                       </a>
@@ -94,28 +94,28 @@ const HeaderLandingNoteTaking = () => {
                         <MegaMenuLanding />
                       </div>
                     </div>
-                    <div data-to-scrollspy-id="product"  className="nav-item">
+                    <div data-to-scrollspy-id="product" className="nav-item">
                       <a href="#product" className="nav-link">
                         Product
                       </a>
                     </div>
-                    <div data-to-scrollspy-id="features"  className="nav-item">
+                    <div data-to-scrollspy-id="features" className="nav-item">
                       <a href="#features" className="nav-link">
                         Features
                       </a>
                     </div>
-                    <div data-to-scrollspy-id="why_us"  className="nav-item">
+                    <div data-to-scrollspy-id="why_us" className="nav-item">
                       <a href="#why_us" className="nav-link">
                         Why Us
                       </a>
                     </div>
-               
-                   
-                    <div data-to-scrollspy-id="pricing"  className="nav-item">
+
+
+                    <div data-to-scrollspy-id="pricing" className="nav-item">
                       <a href="#pricing" className="nav-link">
                         Pricing
                       </a>
-                    </div> <div data-to-scrollspy-id="feedback"  className="nav-item">
+                    </div> <div data-to-scrollspy-id="feedback" className="nav-item">
                       <a href="#feedback" className="nav-link">
                         Feedback
                       </a>
@@ -129,15 +129,6 @@ const HeaderLandingNoteTaking = () => {
 
           <div className="right-widget">
             <ul className="d-flex align-items-center">
-              <li>
-                <Link
-                      href="/login"
-                  className="signIn-action d-flex align-items-center"
-                >
-                  <Image  width="14" height="19"  src="/images/icon/52.svg" alt="icon" />
-                  <span>login</span>
-                </Link>
-              </li>
               {/* End login */}
               <li>
                 <div
@@ -162,7 +153,7 @@ const HeaderLandingNoteTaking = () => {
                       href="#"
                       onClick={handleClick1}
                     >
-                      <Image  width="22" height="22" src="/images/icon/103.svg" alt="icon" />
+                      <Image width="22" height="22" src="/images/icon/103.svg" alt="icon" />
                       <span>IOS & Android</span>
                     </a>
                     <a
@@ -170,7 +161,7 @@ const HeaderLandingNoteTaking = () => {
                       href="#"
                       onClick={handleClick1}
                     >
-                      <Image  width="20" height="20" src="/images/icon/104.svg" alt="icon" />
+                      <Image width="20" height="20" src="/images/icon/104.svg" alt="icon" />
                       <span>Mac & Windows</span>
                     </a>
                   </div>
@@ -186,19 +177,19 @@ const HeaderLandingNoteTaking = () => {
       {/* Mobile Menu Start */}
       <div className={click ? "mobile-menu  menu-open" : "mobile-menu"}>
         <div className="logo order-md-1">
-          <Link     href="/doc-landing">
+          <Link href="/doc-landing">
             <Image width="138" height="47" src="/images/logo/deski_06.svg" alt="brand" />
           </Link>
           <div className="fix-icon text-dark" onClick={handleClick}>
-            <Image  width="14" height="14"  src="/images/icon/close.svg" alt="icon" />
+            <Image width="14" height="14" src="/images/icon/close.svg" alt="icon" />
           </div>
           {/* Mobile Menu close icon */}
         </div>
 
-        <div 
-         
+        <div
+
         >
-          <p  data-to-scrollspy-id="home" className="nav-item">
+          <p data-to-scrollspy-id="home" className="nav-item">
             <a href="#home" className="nav-link" onClick={handleClick}>
               Home
             </a>
@@ -208,7 +199,7 @@ const HeaderLandingNoteTaking = () => {
               Features
             </a>
           </div>
-        
+
           <div data-to-scrollspy-id="product" className="nav-item">
             <a href="#product" className="nav-link" onClick={handleClick}>
               Product
@@ -219,8 +210,8 @@ const HeaderLandingNoteTaking = () => {
               Why Us
             </a>
           </div>
-          
-         
+
+
           <div data-to-scrollspy-id="pricing" className="nav-item">
             <a href="#pricing" className="nav-link" onClick={handleClick}>
               Pricing

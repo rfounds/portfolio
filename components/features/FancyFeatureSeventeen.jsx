@@ -3,39 +3,21 @@ import Image from "next/image";
 const FeaturesContent = [
   {
     img: "94",
-    title: "Web Clipper",
-    desc: ` Deski Web offers a complete lineup of features from any
-      major browser.`,
-  },
-  {
-    img: "95",
-    title: "All Platform",
-    desc: ` Lorem ipsum began as scrambl nonsensical Latin derived from
-      Cicero's quis`,
-  },
-  {
-    img: "96",
-    title: "Character Finding",
-    desc: ` Creation timelines for the standard lorem ipsum passage
-      vary, with qius some citing.`,
+    title: "Responsive Design",
+    desc: `Every website I create is optimized for all devices—from desktops to smartphones. Your site 
+            will look great and perform seamlessly everywhere.`,
   },
   {
     img: "97",
-    title: "App Integrations",
-    desc: ` Lorem ipsum began as scrambl nonsensical Latin derived from
-      Cicero's quis`,
+    title: "Speedy Delivery",
+    desc: `I understand the importance of timely delivery. I work efficiently to ensure your website is completed within your desired timeframe without compromising quality.
+
+`,
   },
   {
     img: "98",
-    title: "Web Application",
-    desc: ` Lorem ipsum was purposefully designed to have no meaning,
-      but appear like text`,
-  },
-  {
-    img: "99",
-    title: "Notes & Docs",
-    desc: `  Letraset's dry-transfer sheets later entered the digital
-      world via Aldus PageMaker.`,
+    title: "For Small Businesses",
+    desc: `I understand the unique needs of small businesses. I build websites that not only look professional but also drive results, helping you reach your audience and grow your brand.`,
   },
 ];
 const FancyFeatureSeventeen = () => {
@@ -50,7 +32,7 @@ const FancyFeatureSeventeen = () => {
         >
           <div className="block-meta">
             <div className="icon d-flex align-items-end">
-              <Image  width={28} height={28} src={`/images/icon/${val.img}.svg`} alt="icon" />
+              <Image width={28} height={28} src={`/images/icon/${val.img}.svg`} alt="icon" />
             </div>
             <h4>{val.title}</h4>
             <p>{val.desc}</p>
