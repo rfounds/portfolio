@@ -16,7 +16,7 @@ const FooterSeven = () => {
       >
         <div className="logo">
           <a href="index.html">
-            <Image width={138} height={47} style={{width:'100%',height:'fit-content'}}     src="/images/logo/deski_06.svg" alt="logo" />
+            <Image width={50} height={50} style={{width:'70%',height:'fit-content'}}     src="/images/blackNucleus.svg" alt="logo" />
           </a>
         </div>
       </div>

@@ -22,9 +22,9 @@ const featuresContent = [
   {
     bgColor: "#FFF4F2",
     icon: "186",
-    title: "Payment Gatway",
+    title: "SEO Optimization",
     descriptions:
-      "It saves the client cards on file securely for an effortless checkout experience using our advanced, secure payments system.",
+      "I build websites with search engine optimization in mind, helping your business rank higher on Google and attract more organic traffic.",
     link: "#",
     dealyAnimation: "",
   },
@@ -59,10 +59,6 @@ const FancyFeatureThirtyTwo = () => {
             <div className="text">
               <h4>{item.title}</h4>
               <p>{item.descriptions}</p>
-              <a href={item.link} className="theme-btn-ten">
-                Learn more
-                <i className="fa fa-chevron-right" aria-hidden="true"></i>
-              </a>
             </div>
           </div>
         </div>

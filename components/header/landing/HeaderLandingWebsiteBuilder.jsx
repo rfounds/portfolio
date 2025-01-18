@@ -57,22 +57,13 @@ const HeaderLandingWebsiteBuilder = () => {
 
           <div className="right-widget order-lg-3">
             <ul className="d-flex align-items-center">
-              <li>
-                <Link
-                      href="/login"
-                  className="signIn-action d-flex align-items-center"
-                >
-                  <Image width="20" height="21" src="/images/icon/120.svg" alt="icon" />
-                  <span>login</span>
-                </Link>
-              </li>
               {/* End login */}
               <li>
                 <Link
-                      href="/signup"
+                      href="/contact"
                   className="theme-btn-twelve d-none d-lg-block"
                 >
-                  Start Free Trial
+                  Get Started
                 </Link>
               </li>
             </ul>
@@ -111,18 +102,13 @@ const HeaderLandingWebsiteBuilder = () => {
                     // currentClassName="active"
                     // offset={-500}
                   >
-                    <div data-to-scrollspy-id="home" className="nav-item dropdown position-static">
+                    <div data-to-scrollspy-id="home" className="nav-item  position-static">
                       <a
-                        className="nav-link dropdown-toggle"
+                        className="nav-link "
                         href="#home"
-                        data-toggle="dropdown"
-                       
                       >
                         Home
                       </a>
-                      <div className="dropdown-menu">
-                        <MegaMenuLanding />
-                      </div>
                     </div>
                     <div data-to-scrollspy-id="feature"  className="nav-item">
                       <a href="#feature" className="nav-link">
@@ -153,7 +139,7 @@ const HeaderLandingWebsiteBuilder = () => {
       <div className={click ? "mobile-menu  menu-open" : "mobile-menu"}>
         <div className="logo order-md-1">
           <Link     href="/doc-landing">
-            <Image width="138" height="47" src="/images/logo/deski_06.svg" alt="brand" />
+            <Image width="50" height="50" src="/images/blackNucleus.svg" alt="brand" />
           </Link>
           <div className="fix-icon text-dark" onClick={handleClick}>
             <Image  width="14" height="14"  src="/images/icon/close.svg" alt="icon" />
