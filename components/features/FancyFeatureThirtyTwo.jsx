@@ -4,24 +4,24 @@ const featuresContent = [
   {
     bgColor: "#F7EDFF",
     icon: "166",
-    title: "Chat & Messaging",
+    title: "Custom Development",
     descriptions:
-      "Chat section is as significant as other sections on your website and it works best for your customers.",
+      "I design and build websites from the ground up, ensuring they align perfectly with your brand and business goals. Your site will be unique, professional, and tailored to your audience.",
     link: "#",
     dealyAnimation: "",
   },
   {
     bgColor: "#D8FFF1",
     icon: "167",
-    title: "eCommerce",
+    title: "E-Commerce",
     descriptions:
-      "Build an online store that rank higher & sell more and integrates easily ooCommerce, to enhance the quality",
+      "Whether you’re launching a new online store or upgrading your existing one, I’ll create a seamless shopping experience with secure payment systems and easy-to-manage tools.",
     link: "#",
     dealyAnimation: "100",
   },
   {
-    bgColor: "#E6FBFF",
-    icon: "168",
+    bgColor: "#FFF4F2",
+    icon: "186",
     title: "Payment Gatway",
     descriptions:
       "It saves the client cards on file securely for an effortless checkout experience using our advanced, secure payments system.",
@@ -31,9 +31,9 @@ const featuresContent = [
   {
     bgColor: "#FFEBDB",
     icon: "169",
-    title: "Appointments",
+    title: "Continued Maintenance",
     descriptions:
-      "Our Scheduling Platform is Simple yet Powerful that you need to grow and manage your business in single user interface.",
+      "Keep your website running smoothly and securely with regular updates, backups, and troubleshooting support.",
     link: "#",
     dealyAnimation: "100",
   },

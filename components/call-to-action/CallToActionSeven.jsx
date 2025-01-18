@@ -10,11 +10,11 @@ const CallToActionSeven = () => {
           <div className="col-12" data-aos="fade-up" data-aos-duration="1200">
             <div className="title-style-thirteen">
               <h2>
-                200k+ Customers <br />
-                have our deski.Try it now!
+                Let's Build Your<br />
+                Dream Website Today! 
               </h2>
             </div>
-            <p>Try it risk free — we don’t charge cancellation fees.</p>
+            <p>Ready to get started? Let’s work together to create a website that represents your brand and achieves your goals. Contact me today for a free consultation!</p>
             <Link     href="/signup" className="theme-btn-twelve">
               Let’s Get Started
             </Link>

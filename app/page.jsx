@@ -93,12 +93,7 @@ export default function Home() {
         {/* =============================================
             Fancy Feature Twenty Nine
         ==============================================  */}
-        <div
-          className="fancy-feature-twentyNine lg-container pt-150 mt-20 md-pt-70"
-          id="p-tour"
-        >
-          <FancyTextBlock29 />
-        </div>
+
 
         {/* =============================================
             Fancy Feature Thirty
@@ -108,18 +103,17 @@ export default function Home() {
             <div className="row">
               <div className="col-xl-10 col-lg-9 m-auto">
                 <div className="title-style-thirteen text-center mb-80 md-mb-60">
-                  <div className="upper-title">Others Features</div>
+                  <div className="upper-title">My Products</div>
                   <h2>
                     {" "}
-                    Deski for every
+                    Services that deliver
                     <span>
-                      business{" "}
+                      &nbsp;results{" "}
                       <Image width="391" height="36"
                         src="/images/shape/line-shape-14.svg"
                         alt="line shape"
                       />
                     </span>
-                    You need.
                   </h2>
                 </div>
               </div>
@@ -147,29 +141,6 @@ export default function Home() {
         {/* =====================================================
             Client Feedback Slider Six
         ===================================================== */}
-        <div
-          className="client-feedback-slider-six pt-200 md-pt-120"
-          id="feedback"
-        >
-          <div className="inner-container">
-            <div className="title-style-thirteen text-center mb-50 md-mb-20">
-              <div className="upper-title">TESTimonials</div>
-              <h2>
-                Client
-                <span>
-                  love us & we
-                  <Image width="391" height="36" src="/images/shape/line-shape-14.svg" alt="line shape" />
-                </span>
-                love them
-              </h2>
-            </div>
-            <div className="clientSliderSix style-two">
-              <TestimonialSeven />
-            </div>
-          </div>
-          {/* <!-- /.inner-container --> */}
-        </div>
-        {/* <!-- /.client-feedback-slider-six --> */}
 
         <CallToActionSeven />
         {/* End call to acion seven */}

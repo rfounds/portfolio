@@ -16,7 +16,7 @@ const FeaturesContent = [
   },
   {
     img: "98",
-    title: "For Small Businesses",
+    title: "Businesses Minded",
     desc: `I understand the unique needs of small businesses. I build websites that not only look professional but also drive results, helping you reach your audience and grow your brand.`,
   },
 ];
