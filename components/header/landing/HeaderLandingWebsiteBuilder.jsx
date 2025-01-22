@@ -14,24 +14,24 @@ const HeaderLandingWebsiteBuilder = () => {
 
   const changeBackground = () => {
     if (typeof window !== "undefined") {
-       if (window.scrollY >= 90) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
+      if (window.scrollY >= 90) {
+        setNavbar(true);
+      } else {
+        setNavbar(false);
+      }
     }
-    }
-   
+
   };
 
 
   useEffect(() => {
-      window.addEventListener("scroll", changeBackground);
-  
+    window.addEventListener("scroll", changeBackground);
+
     return () => {
-        window.removeEventListener("scroll", changeBackground);
+      window.removeEventListener("scroll", changeBackground);
     }
   }, [])
-  
+
 
 
 
@@ -49,8 +49,8 @@ const HeaderLandingWebsiteBuilder = () => {
       >
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-1 my-3">
-            <Link     href="/">
-              <Image  width="100" height="100" src="/images/nucleus.svg" alt="brand" />
+            <Link href="/">
+              <Image width="100" height="100" src="/images/nucleus.svg" alt="brand" />
             </Link>
           </div>
           {/* End logo */}
@@ -60,7 +60,7 @@ const HeaderLandingWebsiteBuilder = () => {
               {/* End login */}
               <li>
                 <Link
-                      href="/contact"
+                  href="/contact"
                   className="theme-btn-twelve d-none d-lg-block"
                 >
                   Get Started
@@ -90,43 +90,38 @@ const HeaderLandingWebsiteBuilder = () => {
                 className="navbar-collapse collapse landing-menu-onepage"
                 id="navbarSupportedContent"
               >
-                <div 
-                    className="navbar-nav  main-side-nav font-gordita"
-                    // items={[
-                    //   "home",
-                    //   "feature",
-                    //   "product",
-                    //   "feedback",
-                    //   "pricing",
-                    // ]}
-                    // currentClassName="active"
-                    // offset={-500}
-                  >
-                    <div data-to-scrollspy-id="home" className="nav-item  position-static">
-                      <a
-                        className="nav-link "
-                        href="#home"
-                      >
-                        Home
-                      </a>
-                    </div>
-                    <div data-to-scrollspy-id="whyme"  className="nav-item">
-                      <a href="#whyme" className="nav-link">
-                        Why me?
-                      </a>
-                    </div>
-                    <div data-to-scrollspy-id="product"  className="nav-item">
-                      <a href="#product" className="nav-link">
-                        Products
-                      </a>
-                    </div>
-                    <div data-to-scrollspy-id="feedback"  className="nav-item">
-                      <a href="#feedback" className="nav-link">
-                        Feedback
-                      </a>
-                    </div>
-                  
+                <div
+                  className="navbar-nav  main-side-nav font-gordita"
+                // items={[
+                //   "home",
+                //   "feature",
+                //   "product",
+                //   "feedback",
+                //   "pricing",
+                // ]}
+                // currentClassName="active"
+                // offset={-500}
+                >
+                  <div data-to-scrollspy-id="home" className="nav-item  position-static">
+                    <a
+                      className="nav-link "
+                      href="#home"
+                    >
+                      Home
+                    </a>
                   </div>
+                  <div data-to-scrollspy-id="whyme" className="nav-item">
+                    <a href="#whyme" className="nav-link">
+                      Why me?
+                    </a>
+                  </div>
+                  <div data-to-scrollspy-id="features" className="nav-item">
+                    <a href="#features" className="nav-link">
+                      Features
+                    </a>
+                  </div>
+
+                </div>
               </div>
             </div>
           </nav>
@@ -138,20 +133,20 @@ const HeaderLandingWebsiteBuilder = () => {
       {/* Mobile Menu Start */}
       <div className={click ? "mobile-menu  menu-open" : "mobile-menu"}>
         <div className="logo order-md-1">
-          <Link     href="/doc-landing">
+          <Link href="/doc-landing">
             <Image width="50" height="50" src="/images/blackNucleus.svg" alt="brand" />
           </Link>
           <div className="fix-icon text-dark" onClick={handleClick}>
-            <Image  width="14" height="14"  src="/images/icon/close.svg" alt="icon" />
+            <Image width="14" height="14" src="/images/icon/close.svg" alt="icon" />
           </div>
           {/* Mobile Menu close icon */}
         </div>
 
-        
-        <div 
-         
+
+        <div
+
         >
-          <p  data-to-scrollspy-id="home" className="nav-item">
+          <p data-to-scrollspy-id="home" className="nav-item">
             <a href="#home" className="nav-link" onClick={handleClick}>
               Home
             </a>
@@ -171,7 +166,7 @@ const HeaderLandingWebsiteBuilder = () => {
               Feedback
             </a>
           </div>
-        
+
         </div>
       </div>
       {/* Mobile Menu End */}

@@ -36,6 +36,7 @@ export default function Home() {
         Theme Hero Banner
         ==============================================  */}
       <Scrollspy>
+        <div id="home"></div>
         <HeroBannerTwelve />
 
         {/* =============================================
@@ -55,7 +56,7 @@ export default function Home() {
         ===================================================== */}
         <div
           className="fancy-feature-seventeen lg-container pt-150 md-pt-90"
-          id="feature"
+          id="whyme"
         >
           <div className="container">
             <div className="row">
@@ -98,12 +99,13 @@ export default function Home() {
         {/* =============================================
             Fancy Feature Thirty
         ==============================================  */}
-        <div className="fancy-feature-thirty mt-180 md-mt-100">
+        <div className="my-5 " id="features"></div>
+        <div className="fancy-feature-thirty mt-180 md-mt-100" >
           <div className="container">
             <div className="row">
               <div className="col-xl-10 col-lg-9 m-auto">
                 <div className="title-style-thirteen text-center mb-80 md-mb-60">
-                  <div className="upper-title">My Products</div>
+                  <div className="upper-title" >My Features</div>
                   <h2>
                     {" "}
                     Services that deliver
