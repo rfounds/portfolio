@@ -110,14 +110,14 @@ const HeaderLandingWebsiteBuilder = () => {
                         Home
                       </a>
                     </div>
-                    <div data-to-scrollspy-id="feature"  className="nav-item">
-                      <a href="#feature" className="nav-link">
-                        Features
+                    <div data-to-scrollspy-id="whyme"  className="nav-item">
+                      <a href="#whyme" className="nav-link">
+                        Why me?
                       </a>
                     </div>
-                    <div data-to-scrollspy-id="p-tour"  className="nav-item">
-                      <a href="#p-tour" className="nav-link">
-                        Product Tour
+                    <div data-to-scrollspy-id="product"  className="nav-item">
+                      <a href="#product" className="nav-link">
+                        Products
                       </a>
                     </div>
                     <div data-to-scrollspy-id="feedback"  className="nav-item">

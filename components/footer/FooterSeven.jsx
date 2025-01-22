@@ -23,7 +23,7 @@ const FooterSeven = () => {
       {/* End .col */}
 
       <div
-        className="col-lg-2 col-md-6 mb-40"
+        className="col-lg-4 col-md-6 mb-40 mx-5"
         data-aos="fade-up"
         data-aos-duration="1200"
         data-aos-delay="100"
@@ -34,13 +34,7 @@ const FooterSeven = () => {
             <Link     href="/">Home</Link>
           </li>
           <li>
-            <Link     href="/pricing-cs">Pricing</Link>
-          </li>
-          <li>
-            <Link     href="/about-eo">About us</Link>
-          </li>
-          <li>
-            <Link     href="/features-customer-support">Careers</Link>
+            <Link     href="/about-eo">About Me</Link>
           </li>
           <li>
             <Link     href="/solution-management">Features</Link>
@@ -72,26 +66,6 @@ const FooterSeven = () => {
             <Link     href="/terms-conditions">Cookie policy</Link>
           </li>
         </ul>
-      </div>
-      <div
-        className="col-xl-4 col-lg-5 mb-40"
-        data-aos="fade-up"
-        data-aos-duration="1200"
-        data-aos-delay="200"
-      >
-        <div className="newsletter">
-          <h5 className="title">Newslettert</h5>
-          <p>
-            Join over <span>68,000</span> people getting our emails
-          </p>
-
-          <FormFooterSignup />
-
-          <div className="info">
-            We only send interesting and relevant emails.
-          </div>
-        </div>
-        {/* /.newsletter */}
       </div>
     </div>
   );

@@ -54,14 +54,7 @@ const CopyRightThree = () => {
       <div className="col-lg-4 order-lg-2 mb-20">
         <p className="copyright text-center">
           Copyright @{new Date().getFullYear()}{" "}
-          <a
-            href="https://themeforest.net/user/ib-themes/portfolio"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ib-themes
-          </a>{" "}
-          inc.
+           Robert Founds 
         </p>
       </div>
     </div>
