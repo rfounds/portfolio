@@ -150,7 +150,7 @@ export default function Home() {
                   <p className="mt-3 text-muted">I'll get back to you within 24-48 hours</p>
                 </div>
                 
-                <form action={`https://formsubmit.co/157a36ab13fa075be65ae5a74974b588`} method="POST" className="theme-form-style-three">
+                <form action={`https://formsubmit.co/r2founds@gmail.com`} method="POST" className="theme-form-style-three">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group mb-4">
