@@ -3,16 +3,17 @@ import Link from "next/link";
 
 const socialContent = [
   {
-    icon: "fa-facebook",
-    link: "https://www.facebook.com/",
+    icon: "fa-github",
+    link: "https://www.github.com/rfounds",
   },
+
   {
     icon: "fa-twitter",
-    link: "https://twitter.com/",
+    link: "https://twitter.com/rfoundsdev",
   },
   {
     icon: "fa-linkedin",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/rfounds",
   },
 ];
 
@@ -28,10 +29,10 @@ const CopyRightThree = () => {
             "
         >
           <li>
-            <Link     href="/terms-conditions">Privacy & Terms.</Link>
+            <Link     href="/">Privacy & Terms.</Link>
           </li>
           <li>
-            <Link     href="/contact-cs">Contact Us</Link>
+            <Link     href="#contact">Contact Us</Link>
           </li>
         </ul>
       </div>

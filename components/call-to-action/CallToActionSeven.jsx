@@ -15,7 +15,7 @@ const CallToActionSeven = () => {
               </h2>
             </div>
             <p>Ready to get started? Let’s work together to create a website that represents your brand and achieves your goals. Contact me today for a free consultation!</p>
-            <Link     href="/signup" className="theme-btn-twelve">
+            <Link     href="#contact" className="theme-btn-twelve">
               Let’s Get Started
             </Link>
           </div>
