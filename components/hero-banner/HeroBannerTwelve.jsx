@@ -22,7 +22,7 @@ const HeroBannerTwelve = () => {
               Your digital presence, perfected.
             </p>
             <div data-aos="fade-up" data-aos-delay="200">
-              <Link href="/signup" className="get-start-btn">
+              <Link href="#contact" className="get-start-btn">
                 Get Started now{" "}
                 <i className="fa fa-angle-right ms-1" aria-hidden="true"></i>
               </Link>

@@ -34,18 +34,17 @@ const NotFound = () => {
           <div className="logo">
             <Link href="/">
               <Image width={136} 
-              height={43} src="/images/logo/deski_05.svg" alt="logo" />
+              height={100} src="/images/blackNucleus.svg" alt="logo" />
             </Link>
           </div>
           <h1 className="font-slab">
             Sorry, <br />
-            The Page Can’t <br />
-            be Found.
+            The Page Cannnot <br />
+            be Found. <br />
+            <br />
           </h1>
-          <p className="font-rubik">
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat
-          </p>
+
+
 
           <Link
             href="/"

@@ -140,6 +140,7 @@ export default function Home() {
         {/* =====================================================
             Client Feedback Slider Six
         ===================================================== */}
+        <div id="contact" className="mb-150"></div>
         <div className="client-feedback-slider-six mt-150 md-mt-100" id="feedback">
           <div className="container">
             <div className="row">
