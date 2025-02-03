@@ -10,7 +10,7 @@ const HeaderLandingWebsiteBuilder = () => {
   // For Mobile  menu
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(true);
 
   const changeBackground = () => {
     if (typeof window !== "undefined") {

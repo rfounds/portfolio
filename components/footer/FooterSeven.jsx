@@ -31,16 +31,13 @@ const FooterSeven = () => {
         <h5 className="title">Links</h5>
         <ul className="footer-list">
           <li>
-            <Link     href="/">Home</Link>
+            <Link     href="#home">Home</Link>
           </li>
           <li>
-            <Link     href="/about-eo">About Me</Link>
+            <Link     href="#whyme">About Me</Link>
           </li>
           <li>
-            <Link     href="/solution-management">Features</Link>
-          </li>
-          <li>
-            <Link     href="/blog-v3">Blog</Link>
+            <Link     href="#features">Features</Link>
           </li>
         </ul>
       </div>
@@ -54,16 +51,10 @@ const FooterSeven = () => {
         <h5 className="title">Legal</h5>
         <ul className="footer-list">
           <li>
-            <Link     href="/terms-conditions">Terms of use</Link>
-          </li>
-          <li>
             <Link     href="/terms-conditions">Terms & conditions</Link>
           </li>
           <li>
-            <Link     href="/terms-conditions">Privacy policy</Link>
-          </li>
-          <li>
-            <Link     href="/terms-conditions">Cookie policy</Link>
+            <Link     href="/privacy-policy">Privacy policy</Link>
           </li>
         </ul>
       </div>

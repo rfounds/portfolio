@@ -199,9 +199,9 @@ export default function Home() {
                   <input type="hidden" name="_captcha" value="false" />
 
                   <div className="text-center">
-                    <button type="submit" className="theme-btn-twelve">
+                    <button type="submit" className="theme-btn-fourteen hover-transform">
                       Send Message
-                      <i className="fa fa-paper-plane ms-2"></i>
+                      <i className="fas fa-paper-plane ml-2"></i>
                     </button>
                   </div>
                 </form>
