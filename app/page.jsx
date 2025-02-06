@@ -17,7 +17,7 @@ const Scrollspy = dynamic(() => import('@/components/scrollpy/Scrollphy'), {
 
 })
 export const metadata = {
-  title: 'Robert Founds || Full Stack Web Developer',
+  title: 'rfounds.dev',
   description: `Web Development For Small Businesses and Personal Portfolios`,
 }
 
