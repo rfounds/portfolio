@@ -17,8 +17,8 @@ const Scrollspy = dynamic(() => import('@/components/scrollpy/Scrollphy'), {
 
 })
 export const metadata = {
-  title: 'Website Builder Landing || Deski-Saas & Software Nextjs Template',
-  description: `Unleash the full potential of your software projects with our SaaS-focused Next.js template. Create engaging blogs, showcase your talented team, set up an online shop, provide helpful FAQs, and offer exceptional services with our feature-rich solution. Elevate your SaaS and software development with ease and drive growth. Try it now and take your projects to new heights.`,
+  title: 'Robert Founds || Full Stack Web Developer',
+  description: `Web Development For Small Businesses and Personal Portfolios`,
 }
 
 export default function Home() {
