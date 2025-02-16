@@ -21,7 +21,8 @@ export default function RootLayout({ children }) {
   return (
     <html  lang="en">
       <head>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap" />
       </head>
       <body  ><div ><Context> {children}</Context></div>
       {<ScrollToTop/>}</body>
