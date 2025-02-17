@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
               <div className="col-xl-8 col-lg-10 m-auto">
                 <div className="title-style-thirteen text-center mb-45">
                   <h2 className="font-gilroy-bold color-dark">Privacy Policy</h2>
-                  <p className="text-dark mt-3">Last updated: {new Date().toLocaleDateString()}</p>
+                  <p className="text-dark mt-3">Last updated: 2/16/2025</p>
                 </div>
 
                 <div className="privacy-content color-dark">
@@ -93,9 +93,7 @@ export default function PrivacyPolicy() {
                     <h3 className="font-gilroy-bold color-dark mb-3">4. Contact Us</h3>
                     <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
                     <div className="contact-info mt-4">
-                      <p className="mb-2">Email: privacy@yourcompany.com</p>
-                      <p className="mb-2">Phone: (555) 123-4567</p>
-                      <p>Address: Your Company Address</p>
+                      <p className="mb-2">Email: r2founds@gmail.com</p>
                     </div>
                   </div>
                 </div>
