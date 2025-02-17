@@ -60,7 +60,7 @@ const HeaderLandingWebsiteBuilder = () => {
               {/* End login */}
               <li>
                 <Link
-                  href="/contact"
+                  href="#contact"
                   className="theme-btn-twelve d-none d-lg-block"
                 >
                   Get Started

@@ -150,18 +150,18 @@ export default function Home() {
                   <h2>Get in Touch</h2>
                   <p className="mt-3 text-muted">I'll get back to you within 24-48 hours</p>
                 </div>
-                
+
                 <form action={`https://formsubmit.co/157a36ab13fa075be65ae5a74974b588`} method="POST" className="theme-form-style-three">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group mb-4">
                         <label htmlFor="name" className="mb-2">Full Name *</label>
-                        <input 
-                          type="text" 
+                        <input
+                          type="text"
                           id="name"
                           name="name"
                           placeholder="Your name"
-                          className="form-control rounded-lg" 
+                          className="form-control rounded-lg"
                           required
                         />
                       </div>
@@ -169,13 +169,13 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="form-group mb-4">
                         <label htmlFor="email" className="mb-2">Email Address *</label>
-                        <input 
-                          type="email" 
+                        <input
+                          type="email"
                           id="email"
                           name="email"
                           placeholder="email@example.com"
                           className="form-control rounded-lg"
-                          required 
+                          required
                         />
                       </div>
                     </div>
@@ -195,7 +195,7 @@ export default function Home() {
 
                   {/* Hidden honeypot field to prevent spam */}
                   <input type="text" name="_honey" style={{ display: 'none' }} />
-                  
+
                   {/* Disable captcha */}
                   <input type="hidden" name="_captcha" value="false" />
 

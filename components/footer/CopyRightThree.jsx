@@ -3,16 +3,15 @@ import Link from "next/link";
 
 const socialContent = [
   {
-    icon: "fa-github",
+    icon: "fab fa-github",
     link: "https://www.github.com/rfounds",
   },
-
   {
-    icon: "fa-twitter",
-    link: "https://twitter.com/rfoundsdev",
+    icon: "fab fa-twitter",
+    link: "https://twitter.com/rfoundsdev", 
   },
   {
-    icon: "fa-linkedin",
+    icon: "fab fa-linkedin",
     link: "https://www.linkedin.com/rfounds",
   },
 ];
@@ -29,10 +28,10 @@ const CopyRightThree = () => {
             "
         >
           <li>
-            <Link     href="/">Privacy & Terms.</Link>
+            <Link href="/">Privacy & Terms.</Link>
           </li>
           <li>
-            <Link     href="#contact">Contact Us</Link>
+            <Link href="#contact">Contact Us</Link>
           </li>
         </ul>
       </div>
@@ -55,7 +54,7 @@ const CopyRightThree = () => {
       <div className="col-lg-4 order-lg-2 mb-20">
         <p className="copyright text-center">
           Copyright @{new Date().getFullYear()}{" "}
-           Robert Founds 
+          Robert Founds
         </p>
       </div>
     </div>
